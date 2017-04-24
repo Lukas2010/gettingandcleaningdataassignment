@@ -1,0 +1,321 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Codebook - Movement Sensors (Getting and Cleaning Data: Assignment)\
+\
+Overview: 88 variables, 30 subjects, 1 row/subject\
+\
+
+\f1 \
+ [1] IDs:\
+	Identification number for individual subject (range: 1-30)             \
+\
+ [2] Activities:\
+	Activity performed during examination\
+		Levels: Sitting, Standing, Laying, Walking, Walking Upstairs, Walking Downstairs\
+                             \
+ [3] TimebodyAccelerationMeanx-axis:  \
+	Mean time of body acceleration on x axis            \
+\
+ [4] TimebodyAccelerationMeany-axis    \
+	Mean time of body acceleration on y axis       \
+\
+ [5] TimebodyAccelerationMeanz-axis\
+\pard\pardeftab708\ri-386\partightenfactor0
+\cf0          Mean time of body acceleration on z axis                 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0  [6] TimegravityAccelerationMeanx-axis \
+	Mean time of gravity acceleration on x axis             \
+\
+ [7] TimegravityAccelerationMeany-axis  \
+	Mean time of gravity acceleration on y axis           \
+\
+ [8] TimegravityAccelerationMeanz-axis"\
+	Mean time of gravity acceleration on z axis              \
+\
+ [9] "TimebodyAccelerationjerkMeanx-axis"\
+	Mean time of jerk body acceleration on the x axis            \
+ \
+ [10] "TimebodyAccelerationjerkMeany-axis"  \
+	Mean time of jerk body acceleration on the y axis           \
+\
+[11] "TimebodyAccelerationjerkMeanz-axis" \
+\pard\pardeftab708\ri-386\partightenfactor0
+\cf0           Mean time of jerk body acceleration on the z axis            \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [12] "TimebodyGyroMeanx-axis"\
+	Mean time body gyroscopic signals on the x axis                       \
+  \
+[13] "TimebodyGyroMeany-axis"   \
+	Mean time body gyroscopic signals on the y axis                      \
+\
+[14] "TimebodyGyroMeanz-axis"   \
+	Mean time body gyroscopic signals on the z axis                      \
+\
+[15] "TimebodyGyrojerkMeanx-axis"    \
+	Mean time body gyroscopic jerk signals on the x axis               \
+\
+[16] "TimebodyGyrojerkMeany-axis"                     \
+	Mean time body gyroscopic jerk signals on the x axis\
+\
+[17] "TimebodyGyrojerkMeanz-axis"                     \
+\
+	Mean time body gyroscopic jerk signals on the x axis\
+[18] "TimebodyAccelerationmagMean"    \
+	Mean time of the body acceleration magnitude          \
+      \
+[19] "TimegravityAccelerationmagMean"      \
+	Mean time of the gravity acceleration magnitude           \
+\
+[20] "TimebodyAccelerationjerkmagMean"       \
+	Mean time of the body jerk acceleration magnitude       \
+  \
+[21] "TimebodyGyromagMean"    \
+	Mean time of the gyro acceleration magnitude	        \
+                \
+[22] "TimebodyGyrojerkmagMean"    \
+	Mean time of the gyro jerk acceleration magnitude         \
+           \
+[23] "fbodyAccelerationMeanx-axis"\
+	Mean frequency of body acceleration on x axis                 \
+   \
+[24] "fbodyAccelerationMeany-axis" \
+	Mean frequency of body acceleration on y axis                \
+   \
+[25] "fbodyAccelerationMeanz-axis"                    \
+	Mean frequency of body acceleration on z axis\
+\
+[26] "fbodyAccelerationMeanfreqx-axis"     \
+	Frequency of body acceleration on the x-axis with weighted average of the frequency component          \
+\
+[27] "fbodyAccelerationMeanfreqy-axis"\
+	Frequency of body acceleration on the y-axis with weighted average of the frequency component       \
+           \
+[28] "fbodyAccelerationMeanfreqz-axis"        \
+	Frequency of body acceleration on the z-axis with weighted average of the frequency component      \
+    \
+[29] "fbodyAccelerationjerkMeanx-axis"        \
+	Mean frequency of body jerk acceleration on x axis       \
+\
+[30] "fbodyAccelerationjerkMeany-axis"    \
+	Mean frequency of body jerk acceleration on y axis     \
+       \
+[31] "fbodyAccelerationjerkMeanz-axis"  \
+	Mean frequency of body jerk acceleration on z axis        \
+      \
+[32] "fbodyAccelerationjerkMeanfreqx-axis"   \
+	Frequency of jerk body acceleration on the x-axis with weighted average of the frequency component    \
+     \
+[33] "fbodyAccelerationjerkMeanfreqy-axis"   \
+	Frequency of jerk body acceleration on the y-axis with weighted average of the frequency component  \
+         \
+[34] "fbodyAccelerationjerkMeanfreqz-axis"     \
+	Frequency of jerk body acceleration on the z-axis with weighted average of the frequency component \
+        \
+[35] "fbodyGyroMeanx-axis"      \
+	 Mean frequency body gyroscopic signals on the x axis             \
+        \
+[36] "fbodyGyroMeany-axis"         \
+	Mean frequency body gyroscopic signals on the y axis   \
+                \
+[37] "fbodyGyroMeanz-axis"                            \
+	Mean frequency body gyroscopic signals on the z axis\
+\
+[38] "fbodyGyroMeanfreqx-axis"       \
+	Frequency of gyro acceleration on x-axis with weighted average of the frequency component  \
+               \
+[39] "fbodyGyroMeanfreqy-axis"   \
+	Frequency of gyro acceleration on y-axis with weighted average of the frequency component       \
+                     \
+[40] "fbodyGyroMeanfreqz-axis"    \
+          Frequency of gyro acceleration on z-axis with weighted average of the frequency component  \
+               \
+[41] "fbodyAccelerationmagMean"     \
+	Mean frequency of body acceleration magnitude   \
+               \
+[42] "fbodyAccelerationmagMeanfreq"    \
+          Frequency of body acceleration magnitude with weighted average of the frequency component \
+  \
+[43] "fbodybodyAccelerationjerkmagMean"      \
+	Mean frequency of jerk body acceleration magnitude  \
+          \
+[44] "fbodybodyAccelerationjerkmagMeanfreq" \
+	Frequency of jerk body acceleration magnitude with weighted average of the frequency component\
+          \
+[45] "fbodybodyGyromagMean"       \
+	Mean frequency of the body gyro acceleration magnitude               \
+     \
+[46] "fbodybodyGyromagMeanfreq"            \
+	Frequency of body gyro acceleration magnitude with weighted average of the frequency component   \
+        \
+[47] "fbodybodyGyrojerkmagMean"     \
+	Mean frequency of the jerk body gyro acceleration magnitude       \
+                  \
+[48] "fbodybodyGyrojerkmagMeanfreq"  \
+	Frequency of jerk body gyro acceleration magnitude with weighted average of the frequency component\
+                  \
+[49] "angle(tbodyAccelerationMean,gravity)"   \
+	Angle between body acceleration mean and gravity\
+\
+[50] "angle(tbodyAccelerationjerkMean),gravityMean)"  \
+	Angle between  body jerk acceleration mean and gravity mean\
+\
+[51] "angle(tbodyGyroMean,gravityMean)"     \
+	Angle between body gyro mean and gravity mean\
+          \
+[52] "angle(tbodyGyrojerkMean,gravityMean)"      \
+	 Angle between body jerk gyro mean and gravity mean\
+    \
+[53] "angle(x,gravityMean)"    \
+	Angle between x axis and gravity mean\
+                        \
+[54] "angle(y,gravityMean)"     \
+	Angle between y axis and gravity mean\
+                      \
+[55] "angle(z,gravityMean)"   \
+	Angle beteween z axis and gravity mean  \
+                  \
+[56] "TimebodyAccelerationStandarddeviationx-axis"    \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time of body acceleration on x axis \
+           \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [57] "TimebodyAccelerationStandarddeviationy-axis"   \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time of body acceleration on y axis \
+      \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [58] "TimebodyAccelerationStandarddeviationz-axis"   \
+\pard\pardeftab708\ri-386\partightenfactor0
+\cf0          Standarddeviation time of body acceleration on z axis     \
+  \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [59] "TimegravityAccelerationStandarddeviationx-axis" \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time of gravity acceleration on x axis   \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [60] "TimegravityAccelerationStandarddeviationy-axis" \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time of gravity acceleration on y axis \
+       \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [61] "TimegravityAccelerationStandarddeviationz-axis" \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time of gravity acceleration on z axis  \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [62] "TimebodyAccelerationjerkStandarddeviationx-axis"\
+	Standarddeviation time of jerk body acceleration on the x axis   \
+        \
+[63] "TimebodyAccelerationjerkStandarddeviationy-axis"\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time of jerk body acceleration on the y axis  \
+ \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [64] "TimebodyAccelerationjerkStandarddeviationz-axis"" \
+\pard\pardeftab708\ri-386\partightenfactor0
+\cf0           Standarddeviation time of jerk body acceleration on the z axis   \
+ \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [65] "TimebodyGyroStandarddeviationx-axis"     \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time body gyroscopic signals on the x axis   \
+           \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [66] "TimebodyGyroStandarddeviationy-axis"   \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time body gyroscopic signals on the y axis  \
+            \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [67] "TimebodyGyroStandarddeviationz-axis"      \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time body gyroscopic signals on the z axis   \
+         \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [68] "TimebodyGyrojerkStandarddeviationx-axis      \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time body gyroscopic jerk signals on the x axis\
+          \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [69] "TimebodyGyrojerkStandarddeviationy-axis"                   \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time body gyroscopic jerk signals on the x axis\
+     \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [70] "TimebodyGyrojerkStandarddeviationz-axis"                     \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation time body gyroscopic jerk signals on the x axis \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [71] "TimebodyAccelerationmagStandarddeviation"       \
+	Standarddeviation time of body acceleration magnitude\
+\
+[72] "TimegravityAccelerationmagStandarddeviation"    \
+	Standarddeviation time of body gravity acceleration magnitude\
+\
+[73] "TimebodyAccelerationjerkmagStandarddeviation"   \
+	Standarddeviation time of jerk body acceleration magnitude\
+\
+[74] "TimebodyGyromagStandarddeviation"       \
+	Standarddeviation time of gyro acceleration magnitude   \
+     \
+[75] "TimebodyGyrojerkmagStandarddeviation"   \
+	Standarddeviation time of jerk body acceleration magnitude  \
+      \
+[76] "fbodyAccelerationStandarddeviationx-axis"  \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation frequency of body acceleration on x axis     \
+             \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [77] "fbodyAccelerationStandarddeviationy-axis"\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation frequency of body acceleration on y axis  \
+             \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [78] "fbodyAccelerationStandarddeviationz-axis"                      \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation frequency of body acceleration on z axis\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [79] "fbodyAccelerationjerkStandarddeviationx-axis"   \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation frequency of body jerk acceleration on x axis \
+   \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [80] "fbodyAccelerationjerkStandarddeviationy-axis"   \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation frequency of body jerk acceleration on y axis   \
+    \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [81] "fbodyAccelerationjerkStandarddeviationz-axis"   \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	Standarddeviation frequency of body jerk acceleration on z axis  \
+            \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 [82] "fbodyGyroStandarddeviationx-axis"        \
+	Standarddeviation frequency of gyro acceleration on x axis    \
+    \
+[83] "fbodyGyroStandarddeviationy-axis"     \
+	Standarddeviation frequency of gyro acceleration on y axis    \
+       \
+[84] "fbodyGyroStandarddeviationz-axis"   \
+	Standarddeviation frequency of gyro acceleration on z axis    \
+         \
+[85] "fbodyAccelerationmagStandarddeviation" \
+	Standarddeviation frequency of body acceleration magnitude    \
+    \
+[86] "fbodybodyAccelerationjerkmagStandarddeviation"  \
+	Standarddeviation frequency of jerk body acceleration magnitude  \
+  \
+[87] "fbodybodyGyromagStandarddeviation"       \
+	Standarddeviation frequency of gyro acceleration magnitude  \
+       \
+[88] "fbodybodyGyrojerkmagStandarddeviation"\
+	Standarddeviation frequency of jerk gyro acceleration magnitude }
